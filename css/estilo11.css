@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 30px;
+    background: #333;
+    color: #ffff;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#posts {
+    padding: 10px;
+    background-color: rgb(66, 186, 255);
+    display: grid;
+    grid-template: repeat(2, 300px)/repeat(3, 350px);
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+section .post {
+    display: grid;
+    align-content: end;
+    border-radius: 5px;
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+section .post a {
+    color: white;
+    text-decoration: none;
+}
+
+section .post .title {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+}
+
+section .post .title:hover {
+    background-color: white;
+    color: black;
+}
+
+section .post-1 {
+    background-image: url("https://i.pinimg.com/736x/25/c8/cc/25c8ccba72e25de61dfcad50d5486481.jpg");
+}
+
+section .post-2 {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/03/22/11/winter-landscape-2995987_640.jpg");
+}
+
+section .post-3 {
+    background-image: url("https://st4.depositphotos.com/7677414/23070/i/450/depositphotos_230700054-stock-photo-cityscape-night-view-bangkok-modern.jpg");
+}
+
+section .post-4 {
+    background-image: url("https://i.pinimg.com/originals/d2/7b/9c/d27b9cfe0a2e4897b7e41ed6ff12ae9a.jpg");
+}
+
+section .post-5 {
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2022/12/18/Watercolor-Landscape-Painting-Of-Mountains-Water-Trees-And-Animals-53198656-1.png");
+}
+
+section .post-6 {
+    background-image: url("https://pics.craiyon.com/2023-12-03/MQ5cQQgPSOKDYCuizga__w.webp");
+}
